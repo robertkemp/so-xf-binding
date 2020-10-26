@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="BindingIssue.ContentViews.MyContentView"
+>
+    <ContentView.Content>
+        <Label Text="{Binding MyText}" BackgroundColor="DarkBlue" TextColor="White" />
+    </ContentView.Content>
+</ContentView>
